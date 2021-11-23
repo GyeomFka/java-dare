@@ -25,6 +25,7 @@ class Engine {
 }
 
 class Chickenburger {
+    String name = "칙벅";
     Hamburger h;
     public Chickenburger(Hamburger h) {
         this.h = h;
@@ -44,7 +45,7 @@ public class OOPEx02 {
 
         Hamburger ham = new Hamburger();
         Chickenburger ch1 = new Chickenburger(ham);
-        System.out.println(ch1.h.name);
+        System.out.println(ch1.name);
         System.out.println(ch1.h.material1);
         System.out.println(ch1.h.material2);
     }
