@@ -1,4 +1,4 @@
-package ch08_lambda;
+package ch08_lambda.programmers;
 
 public interface Compare {
 
